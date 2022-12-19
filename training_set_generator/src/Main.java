@@ -399,7 +399,7 @@ public class Main {
         int i = 0;
 
         for (List<String> record : records) {
-            if (i == 217)
+            if (i == 2000)
                 return;
             String tmp = record.get(1);
             String key = getName(tmp);

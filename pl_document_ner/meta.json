@@ -1,0 +1,42 @@
+{
+  "lang":"pl",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.4.3,<3.5.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"63673a792",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "document_ner":[
+      "administrative_law",
+      "civil_law",
+      "constitutional_law",
+      "criminal_law",
+      "international_law",
+      "labor_law",
+      "medical_law",
+      "pharmaceutical_law",
+      "tax_law",
+      "unknown"
+    ]
+  },
+  "pipeline":[
+    "document_ner"
+  ],
+  "components":[
+    "document_ner"
+  ],
+  "disabled":[
+
+  ]
+}

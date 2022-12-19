@@ -44,21 +44,11 @@
 
   ],
   "performance":{
-    "ents_f":1.0,
-    "ents_p":1.0,
+    "ents_f":0.9983606557,
+    "ents_p":0.9967266776,
     "ents_r":1.0,
     "ents_per_type":{
-      "pharmaceutical_law":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "international_law":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "labor_law":{
+      "criminal_law":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -73,17 +63,27 @@
         "r":1.0,
         "f":1.0
       },
-      "criminal_law":{
+      "medical_law":{
+        "p":0.9789473684,
+        "r":1.0,
+        "f":0.9893617021
+      },
+      "pharmaceutical_law":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "medical_law":{
+      "labor_law":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
       "tax_law":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "international_law":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -94,7 +94,7 @@
         "f":1.0
       }
     },
-    "tok2vec_loss":58.7247717629,
-    "ner_loss":10.6558532202
+    "tok2vec_loss":162.4923778344,
+    "ner_loss":75.8054921381
   }
 }
